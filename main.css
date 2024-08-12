@@ -332,7 +332,7 @@ h2{   padding-bottom: 100px;}
 @media (max-width: 768px) {
   .c-section {
     height: auto; /* This ensures the height adjusts automatically based on content */
-    min-height: 180vh; /* Set a minimum height for the section */
+    min-height: 240vh; /* Set a minimum height for the section */
   }
 }
 .section__data {
@@ -713,6 +713,7 @@ h4 { margin-left: 45%; color: rgb(124, 119, 163); font-size: 18px; }
   display: grid;
   row-gap: 3.5rem;
   width: 100%;
+ 
   
 }
 
@@ -883,6 +884,11 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .cont {
+   margin-top: 40px;
+  }
+  
+  .card__container{  margin-bottom: -400px;}
   .card__article {
    
  width: 250px; 
@@ -1077,8 +1083,10 @@ background: linear-gradient(to right,#35453e , #4a5651);
 
 @media screen and (max-width: 780px) {
     .con{
+      margin-top: -70px;
         margin-right: 0px;}
     .mail{
+      margin-bottom: -30px;
         margin-right: 0px;
     }
     #contactForm {
