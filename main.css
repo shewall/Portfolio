@@ -885,7 +885,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
   .cont {
-   margin-top: 90px;
+   margin-bottom: -90px;
   }
   
   .card__container{  margin-bottom: -400px;}
